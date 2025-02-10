@@ -50,7 +50,8 @@ export default async function () {
 }
 
 //C:\Users\nreka\vscodedevops\k6\Grafana-k6-script>k6 run browser-test.js  
-//K6_BROWSER_HEADLESS=false k6 run browsertest.js
+//set K6_BROWSER_HEADLESS=false 
+//k6 run browser-test.js
 
 
 /*

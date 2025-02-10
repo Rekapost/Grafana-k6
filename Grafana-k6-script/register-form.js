@@ -58,7 +58,7 @@ export default async function () {
      // Take a screenshot after submission
     await page.screenshot({
         fullPage:true,
-        path: './screenshots/test1.png'
+        path: './screenshots/form.png'
     });
 
     // Validate the success message
