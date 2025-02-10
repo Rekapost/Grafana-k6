@@ -163,6 +163,10 @@ k6 run browser-test.js
 
 ## ** Running Tests in Grafana Cloud **
 https://rekapost.grafana.net/a/k6-app/runs/3957290
-Home-> Testing & synthetics->Performance->Projects->click Default project -> click Cloud Post Test
-![alt text](image-1.png)
-![alt text](image-2.png)
+- Home-> Testing & synthetics->Performance->Projects->click Default project -> click Cloud Post Test
+
+![image](https://github.com/user-attachments/assets/9d40a902-3cd5-47be-abea-257306307f53)
+![image](https://github.com/user-attachments/assets/7a06bcb9-c7c4-4d3e-8d7e-e443819815c3)
+![image](https://github.com/user-attachments/assets/b82b1ba8-bc5c-45e6-a824-a1ccfee8f62f)
+
+
