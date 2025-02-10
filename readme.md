@@ -141,3 +141,28 @@ If APIs fail at normal load, stress testing **isn't meaningful**.
 ## Image Reference  
 ![Performance Testing](image.png)
 
+### **Check will not stop or throw an error , check always get pass or fail in the log**
+```sh
+check(res,{
+    'is status 201': (r) => r.status === 201,
+    'is response body has email': (r) => r.body.includes('eve.holt@reqres.in'),
+    });
+```
+
+### **open() function**
+- The open() function must be called in the global scope before the test execution starts.
+- Once loaded, data can be used inside the default function during test execution.
+
+### ** Headless Mode **
+```sh
+K6_BROWSER_HEADLESS=false k6 run browsertest.js
+or 
+set K6_BROWSER_HEADLESS=false 
+k6 run browser-test.js
+```
+
+## ** Running Tests in Grafana Cloud **
+https://rekapost.grafana.net/a/k6-app/runs/3957290
+Home-> Testing & synthetics->Performance->Projects->click Default project -> click Cloud Post Test
+### ![alt text](image-1.png)
+### ![alt text](image-2.png)
